@@ -21,3 +21,14 @@ Rationale:  When the patient and receptionist agree on a avaliable slot, the rec
 Originator: Carol
 Comments: [Huge11- Hugh McNamara]
 
+REQ-ID:1
+Description: The product shall accept the completed treatment record form.
+Type: Functional
+Rationale: to show what payment is due and how long it should be before before the next appointment.
+Originator: Carol and Neil
+
+REQ-ID:2
+Description: The product shall collect the payment information
+Type: Functional
+Rationale: To be generated for the patient’s health insurer. 
+Originator: Carol and Neil
