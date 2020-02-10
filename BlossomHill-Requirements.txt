@@ -5,3 +5,19 @@ Rationale:
 Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
+
+REQ-ID:  1
+Description: System allows calendar to be sorted by therapist
+Type: Functional
+Rationale: When signing up for a new appointment, only available appointments for the practicing therapist are important.  So the system should show available slots for each therapist separately.  
+Originator: Carol
+Comments: [Huge11- Hugh McNamara]
+
+
+REQ-ID:  2
+Description: The System should record new appointemnts into the system
+Type: Functional
+Rationale:  When the patient and receptionist agree on a avaliable slot, the receptionist should be able to immediatly book that time slot so that no other patients will be offered that appointment slot.  
+Originator: Carol
+Comments: [Huge11- Hugh McNamara]
+
