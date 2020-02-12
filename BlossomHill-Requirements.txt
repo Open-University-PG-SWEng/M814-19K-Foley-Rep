@@ -28,7 +28,7 @@ Rationale: to show what payment is due and how long it should be before the next
 Originator: Carol and Neil
 [GA- Gabriel Albino]
 
-REQ-ID:GA 2
+REQ-ID:GA2
 Description: The product shall collect the payment information
 Type: Functional
 Rationale: To be generated for the patient’s health insurer. 
