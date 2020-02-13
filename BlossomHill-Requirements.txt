@@ -49,3 +49,17 @@ Rationale: After treatment, follow-up treatments may be suggested and these shou
 Originator: Clinic owner (Neil) and Office Manager (Carol)  
 Comments: [MI- Michael Irven] The requirement does not specify who finds and schedules - it could be the receptionist or the patient (via web?) depending on the "to be" scenario, which is yet to be well defined. 
 
+
+REQ-ID:CG1
+Description: The product shall verify if the patient has an health insurance.
+Type: Functional
+Rationale: All new patients on their first visit at the clinic indicate on the registration form wether they are covered by an health insurance so that the invoice for their treatment can be directly issued to the insurance company. Otherwise, the patient can pay by himself.
+Originator: Neil and Carol
+[CG - Camilla Gison]
+
+REQ-ID:CG2
+Description: The product shall produce a list of available slots for appointments for the selected therapist.
+Type: Functional
+Rationale: When scheduling for the next appointment, the receptionist must be able to provide a suitable date for the patient based on the date on the completed treatment record form that does not overlap with the schedule of the selected therapist.
+Originator: Carol
+[CG - Camilla Gison]
