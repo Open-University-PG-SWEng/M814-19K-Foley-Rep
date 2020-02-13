@@ -1,4 +1,4 @@
-REQ-ID:
+﻿REQ-ID:
 Description:
 Type:
 Rationale:
@@ -34,3 +34,18 @@ Type: Functional
 Rationale: To be generated for the patient’s health insurer. 
 Originator: Carol and Neil
 [GA- Gabriel Albino]
+
+REQ-ID: MI1
+Description: The product shall invoice the health insurer for the amount specified for the treatment, when triggered to do so.
+Type: Functional
+Rationale: The completed treatment form specifies if the treatment is covered by health insurance and ideally the invoicing process can be automated. 
+Originator: Clinic owner (Neil) and Office Manager (Carol)  
+Comments: [MI- Michael Irven] The actual trigger might be manual, or by interface depending on the "to be" scenario, which is yet to be well defined. 
+
+REQ-ID: MI2
+Description: The product shall allow the user to search for available appointments within a chosen timeframe, for a chosen therapist, therapy type and/or location.
+Type: Functional
+Rationale: After treatment, follow-up treatments may be suggested and these should be scheduled by agreement.
+Originator: Clinic owner (Neil) and Office Manager (Carol)  
+Comments: [MI- Michael Irven] The requirement does not specify who finds and schedules - it could be the receptionist or the patient (via web?) depending on the "to be" scenario, which is yet to be well defined. 
+
