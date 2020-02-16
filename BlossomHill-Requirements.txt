@@ -63,3 +63,20 @@ Type: Functional
 Rationale: When scheduling for the next appointment, the receptionist must be able to provide a suitable date for the patient based on the date on the completed treatment record form that does not overlap with the schedule of the selected therapist.
 Originator: Carol
 [CG - Camilla Gison]
+
+REQ-ID: MW1
+Description: Book new/[Create new] appointment at the Blossom Hill Clinic in the new appointments system
+Type: Functional Requirement
+Rationale: The appointment should fit in the available time slot with the right therapist, and should be stored in the database.
+Fit Criterion: The appointment created in the appointments system should correlate with the record in the treatment record system.
+Originator: Carol - the office manager.
+Comments: [M814-MonicaWood] Functional Requirement 1 Q4a
+
+
+REQ-ID: MW2
+Description: Ammend/[Edit] an appointment select type ‘no-shows’ from list (if the patient missed the appointment), at the Blossom Hill Clinic in the new appointments system
+Type: Functional Requirement
+Rationale: The appointment record is edited in the system and the type of appointment, such as 'no-shows', should be stored in the database.
+Fit Criterion: The appointment missed in the appointments system should correlate with the record in the treatment record system.
+Originator: Carol - the office manager.
+Comments: [M814-MonicaWood] Functional Requirement 2 Q4a
