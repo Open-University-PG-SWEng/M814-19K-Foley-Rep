@@ -96,4 +96,30 @@ Rationale: All therapists should remain available to have their lunch break at t
 Originator: Carol – Office manager.
 Comments: [DC-DanielColman]
 
+REQ-ID: PHF1	Type: Functional BUC: 1,2,5
+Description: Locate patient details
+Rationale: The patient details need to be accessed to record treatments, make appointments and generate invoices
 
+Fit Criterion: 
+1–Confirm Patient identity (Name, address)
+2–Access patient details
+
+Originator: Office Manager
+Dependencies: None				Conflicts: None
+Supporting Materials:  
+History: Created P H Farrar 17/02/20 @ 11:30 PM AEDT
+
+REQ-ID: PHF2	Type: Functional BUC: 4
+Description: Patient Invoice sent to Health Insurer
+Rationale: If the patient has a health insurance membership then the invoice can be sent directly to the Health insurer.
+
+Fit Criterion: 
+1–Establish connectivity with agreed communication protocols, and data representation protocols.
+2-Confirm details are present as required by the Health insurer. (eg: Name, DOB, Health Insurer #, Amount Billed).
+3–Send details to the Health Insurer and receive acknowledgement that the details have been received.
+4–Update status of claim and patient record.
+
+Originator: Office Manager
+Dependencies: PHF1				Conflicts: None
+Supporting Materials: Health insurance documentation detailing the process to make direct claims.
+History: Created P H Farrar 17/02/20 @ 11:30 PM AEDT
