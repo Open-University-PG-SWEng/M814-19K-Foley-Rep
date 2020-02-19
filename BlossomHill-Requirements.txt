@@ -35,12 +35,7 @@ Rationale: To be generated for the patient’s health insurer.
 Originator: Carol and Neil
 [GA- Gabriel Albino]
 
-REQ-ID: MI1
-Description: The product shall invoice the health insurer for the amount specified for the treatment, when triggered to do so.
-Type: Functional
-Rationale: The completed treatment form specifies if the treatment is covered by health insurance and ideally the invoicing process can be automated. 
-Originator: Clinic owner (Neil) and Office Manager (Carol)  
-Comments: [MI- Michael Irven] The actual trigger might be manual, or by interface depending on the "to be" scenario, which is yet to be well defined. 
+
 
 REQ-ID: MI2
 Description: The product shall allow the user to search for available appointments within a chosen timeframe, for a chosen therapist, therapy type and/or location.
@@ -57,20 +52,7 @@ Rationale: All new patients on their first visit at the clinic indicate on the r
 Originator: Neil and Carol
 [CG - Camilla Gison]
 
-REQ-ID:CG2
-Description: The product shall produce a list of available slots for appointments for the selected therapist.
-Type: Functional
-Rationale: When scheduling for the next appointment, the receptionist must be able to provide a suitable date for the patient based on the date on the completed treatment record form that does not overlap with the schedule of the selected therapist.
-Originator: Carol
-[CG - Camilla Gison]
 
-REQ-ID: MW1
-Description: Book new/[Create new] appointment at the Blossom Hill Clinic in the new appointments system
-Type: Functional Requirement
-Rationale: The appointment should fit in the available time slot with the right therapist, and should be stored in the database.
-Fit Criterion: The appointment created in the appointments system should correlate with the record in the treatment record system.
-Originator: Carol - the office manager.
-Comments: [M814-MonicaWood] Functional Requirement 1 Q4a
 
 
 REQ-ID: MW2
