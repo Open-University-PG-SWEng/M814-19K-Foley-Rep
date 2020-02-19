@@ -60,20 +60,6 @@ Originator: Carol - the office manager.
 Comments: [M814-MonicaWood] Functional Requirement 2 Q4a
 
 
-REQ-ID: DC1
-Description: It should not be possible to double-book a therapist’s schedule.
-Type: Functional
-Rationale: Therapists are only able to treat one patient in each scheduled time slot.
-Originator: Carol – Office manager.
-Comments: [DC-DanielColman]
-
-REQ-ID: DC2
-Description: It should not be possible to schedule appointments during lunch hours, unless manually overridden.
-Type: Functional
-Rationale: All therapists should remain available to have their lunch break at the same time.
-Originator: Carol – Office manager.
-Comments: [DC-DanielColman]
-
 REQ-ID: PHF1	Type: Functional BUC: 1,2,5
 Description: Locate patient details
 Rationale: The patient details need to be accessed to record treatments, make appointments and generate invoices
