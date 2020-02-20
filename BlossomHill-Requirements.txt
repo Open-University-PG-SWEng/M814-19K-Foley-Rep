@@ -123,3 +123,33 @@ Originator: Office Manager
 Dependencies: PHF1				Conflicts: None
 Supporting Materials: Health insurance documentation detailing the process to make direct claims.
 History: Created P H Farrar 17/02/20 @ 11:30 PM AEDT
+
+
+REQ-ID: mcs482-1	Type: Functional 
+Description: New Patient Registration
+Rationale: A New Patient wishes to register with the Practice for Treatment
+
+Fit Criterion: 
+1. Capture detail of Private Health Insurer (conditional)
+2. Capture GP/Doctor Practice Details (conditional)
+3. Capture Payment Detail (for Private Billing/No-Show Fines) - Data must be Tokenised by Payment Acquiring Entity for future use (Card-on-File)
+4. Capture Patients PII Data (Address, Cellphone/Mobile Telephone Number, Email Address) - PII Data must be segregated and Encrypted.
+
+Originator: NEIL CARTER
+Dependencies: 			Conflicts: None
+Supporting Materials: Private Health Insurer details (if relevant); GP Details (if relevant)
+History: Created M C Scott 20/02/20 @ 05:30 PM GMT
+
+REQ-ID: mcs482-2	Type: Functional 
+Description: Interface between Appointment Booking System and Account System
+Rationale: Automatic generation of Private Health Insurer treatment invoices
+
+Fit Criterion: 
+1. Patient is covered with a linked Private Health Insurer
+2. Patient Appointment WAS NOT a No-Show
+3. Appointment is covered by PHI
+
+Originator: NEIL CARTER
+Dependencies: 			Conflicts: None
+Supporting Materials: Private Health Insurer details 
+History: Created M C Scott 20/02/20 @ 05:30 PM GMT
