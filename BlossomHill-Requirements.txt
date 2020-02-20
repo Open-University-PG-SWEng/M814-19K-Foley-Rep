@@ -64,6 +64,7 @@ Rationale: When scheduling for the next appointment, the receptionist must be ab
 Originator: Carol
 [CG - Camilla Gison]
 
+
 REQ-ID: MW1
 Description: Book new/[Create new] appointment at the Blossom Hill Clinic in the new appointments system
 Type: Functional Requirement
@@ -153,3 +154,18 @@ Originator: NEIL CARTER
 Dependencies: 			Conflicts: None
 Supporting Materials: Private Health Insurer details 
 History: Created M C Scott 20/02/20 @ 05:30 PM GMT
+
+
+REQ-ID: deb-eds01
+Description: The product shall locate a patient’s record within the treatments system
+Type: functional, technological
+Rationale: to be able to update that record with information on the patient’s recent treatment
+Originator: Carol, office manager
+Comments:
+
+REQ-ID: deb-eds02
+Description: The product shall determine the validity of the patient supplied private healthcare insurer details
+Type: functional, business
+Rationale: to be able to invoice a valid and correct health insurer for the treatment just received
+Originator: Carol, office manager
+Comments:
