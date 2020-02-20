@@ -6,14 +6,6 @@ Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
 
-REQ-ID:  HMcN1
-Description: System allows calendar to be sorted by therapist
-Type: Functional
-Rationale: When signing up for a new appointment, only available appointments for the practicing therapist are important.  So the system should show available slots for each therapist separately.  
-Originator: Carol
-Comments: [Huge11- Hugh McNamara]
-
-
 REQ-ID:  HMcN2
 Description: The System should record new appointemnts into the system
 Type: Functional
@@ -57,21 +49,6 @@ Rationale: All new patients on their first visit at the clinic indicate on the r
 Originator: Neil and Carol
 [CG - Camilla Gison]
 
-REQ-ID:CG2
-Description: The product shall produce a list of available slots for appointments for the selected therapist.
-Type: Functional
-Rationale: When scheduling for the next appointment, the receptionist must be able to provide a suitable date for the patient based on the date on the completed treatment record form that does not overlap with the schedule of the selected therapist.
-Originator: Carol
-[CG - Camilla Gison]
-
-REQ-ID: MW1
-Description: Book new/[Create new] appointment at the Blossom Hill Clinic in the new appointments system
-Type: Functional Requirement
-Rationale: The appointment should fit in the available time slot with the right therapist, and should be stored in the database.
-Fit Criterion: The appointment created in the appointments system should correlate with the record in the treatment record system.
-Originator: Carol - the office manager.
-Comments: [M814-MonicaWood] Functional Requirement 1 Q4a
-
 
 REQ-ID: MW2
 Description: Ammend/[Edit] an appointment select type ‘no-shows’ from list (if the patient missed the appointment), at the Blossom Hill Clinic in the new appointments system
@@ -107,21 +84,6 @@ Fit Criterion:
 Originator: Office Manager
 Dependencies: None				Conflicts: None
 Supporting Materials:  
-History: Created P H Farrar 17/02/20 @ 11:30 PM AEDT
-
-REQ-ID: PHF2	Type: Functional BUC: 4
-Description: Patient Invoice sent to Health Insurer
-Rationale: If the patient has a health insurance membership then the invoice can be sent directly to the Health insurer.
-
-Fit Criterion: 
-1–Establish connectivity with agreed communication protocols, and data representation protocols.
-2-Confirm details are present as required by the Health insurer. (eg: Name, DOB, Health Insurer #, Amount Billed).
-3–Send details to the Health Insurer and receive acknowledgement that the details have been received.
-4–Update status of claim and patient record.
-
-Originator: Office Manager
-Dependencies: PHF1				Conflicts: None
-Supporting Materials: Health insurance documentation detailing the process to make direct claims.
 History: Created P H Farrar 17/02/20 @ 11:30 PM AEDT
 
 
