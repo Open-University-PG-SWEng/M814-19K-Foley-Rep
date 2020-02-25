@@ -169,3 +169,19 @@ Type: functional, business
 Rationale: to be able to invoice a valid and correct health insurer for the treatment just received
 Originator: Carol, office manager
 Comments:
+
+
+
+REQ-ID:HM-1
+Description:  the product shall accept the patient identifier and bring up the patient’s profile
+Type:Funcational
+Rationale: the form should be recorded against the patient’s profile 
+Originator: Carol
+Comments: [HM: Hashem Mirzadeh]
+
+REQ-ID: HM-2
+Description: the product shall check any registered insurance and generate an invoice if there is an insurance
+Type: Functional
+Rationale:patients who don’t have insurance should pay the cost using other methods and the insurance company should receive an invoice for the ones who have insurance
+Originator:Carol and Neil 
+Comments: [HM: Hashem Mirzadeh]
