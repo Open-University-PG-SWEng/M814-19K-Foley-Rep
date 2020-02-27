@@ -6,20 +6,13 @@ Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
 
-REQ-ID:  HMcN1
-Description: System allows calendar to be sorted by therapist
-Type: Functional
-Rationale: When signing up for a new appointment, only available appointments for the practicing therapist are important.  So the system should show available slots for each therapist separately.  
-Originator: Carol
-Comments: [Huge11- Hugh McNamara]
-
-
 REQ-ID:  HMcN2
 Description: The System should record new appointemnts into the system
 Type: Functional
 Rationale:  When the patient and receptionist agree on a avaliable slot, the receptionist should be able to immediatly book that time slot so that no other patients will be offered that appointment slot.  
 Originator: Carol
 Comments: [Huge11- Hugh McNamara]
+
 
 REQ-ID: GA1
 Description: The product shall accept the completed treatment record form.
@@ -28,12 +21,6 @@ Rationale: to show what payment is due and how long it should be before the next
 Originator: Carol and Neil
 [GA- Gabriel Albino]
 
-REQ-ID:GA2
-Description: The product shall collect the payment information
-Type: Functional
-Rationale: To be generated for the patient’s health insurer. 
-Originator: Carol and Neil
-[GA- Gabriel Albino]
 
 REQ-ID: MI1
 Description: The product shall invoice the health insurer for the amount specified for the treatment, when triggered to do so.
@@ -42,36 +29,13 @@ Rationale: The completed treatment form specifies if the treatment is covered by
 Originator: Clinic owner (Neil) and Office Manager (Carol)  
 Comments: [MI- Michael Irven] The actual trigger might be manual, or by interface depending on the "to be" scenario, which is yet to be well defined. 
 
+
 REQ-ID: MI2
 Description: The product shall allow the user to search for available appointments within a chosen timeframe, for a chosen therapist, therapy type and/or location.
 Type: Functional
 Rationale: After treatment, follow-up treatments may be suggested and these should be scheduled by agreement.
 Originator: Clinic owner (Neil) and Office Manager (Carol)  
 Comments: [MI- Michael Irven] The requirement does not specify who finds and schedules - it could be the receptionist or the patient (via web?) depending on the "to be" scenario, which is yet to be well defined. 
-
-
-REQ-ID:CG1
-Description: The product shall verify if the patient has an health insurance.
-Type: Functional
-Rationale: All new patients on their first visit at the clinic indicate on the registration form wether they are covered by an health insurance so that the invoice for their treatment can be directly issued to the insurance company. Otherwise, the patient can pay by himself.
-Originator: Neil and Carol
-[CG - Camilla Gison]
-
-REQ-ID:CG2
-Description: The product shall produce a list of available slots for appointments for the selected therapist.
-Type: Functional
-Rationale: When scheduling for the next appointment, the receptionist must be able to provide a suitable date for the patient based on the date on the completed treatment record form that does not overlap with the schedule of the selected therapist.
-Originator: Carol
-[CG - Camilla Gison]
-
-
-REQ-ID: MW1
-Description: Book new/[Create new] appointment at the Blossom Hill Clinic in the new appointments system
-Type: Functional Requirement
-Rationale: The appointment should fit in the available time slot with the right therapist, and should be stored in the database.
-Fit Criterion: The appointment created in the appointments system should correlate with the record in the treatment record system.
-Originator: Carol - the office manager.
-Comments: [M814-MonicaWood] Functional Requirement 1 Q4a
 
 
 REQ-ID: MW2
@@ -82,20 +46,6 @@ Fit Criterion: The appointment missed in the appointments system should correlat
 Originator: Carol - the office manager.
 Comments: [M814-MonicaWood] Functional Requirement 2 Q4a
 
-
-REQ-ID: DC1
-Description: It should not be possible to double-book a therapist’s schedule.
-Type: Functional
-Rationale: Therapists are only able to treat one patient in each scheduled time slot.
-Originator: Carol – Office manager.
-Comments: [DC-DanielColman]
-
-REQ-ID: DC2
-Description: It should not be possible to schedule appointments during lunch hours, unless manually overridden.
-Type: Functional
-Rationale: All therapists should remain available to have their lunch break at the same time.
-Originator: Carol – Office manager.
-Comments: [DC-DanielColman]
 
 REQ-ID: PHF1	Type: Functional BUC: 1,2,5
 Description: Locate patient details
@@ -108,21 +58,6 @@ Fit Criterion:
 Originator: Office Manager
 Dependencies: None				Conflicts: None
 Supporting Materials:  
-History: Created P H Farrar 17/02/20 @ 11:30 PM AEDT
-
-REQ-ID: PHF2	Type: Functional BUC: 4
-Description: Patient Invoice sent to Health Insurer
-Rationale: If the patient has a health insurance membership then the invoice can be sent directly to the Health insurer.
-
-Fit Criterion: 
-1–Establish connectivity with agreed communication protocols, and data representation protocols.
-2-Confirm details are present as required by the Health insurer. (eg: Name, DOB, Health Insurer #, Amount Billed).
-3–Send details to the Health Insurer and receive acknowledgement that the details have been received.
-4–Update status of claim and patient record.
-
-Originator: Office Manager
-Dependencies: PHF1				Conflicts: None
-Supporting Materials: Health insurance documentation detailing the process to make direct claims.
 History: Created P H Farrar 17/02/20 @ 11:30 PM AEDT
 
 
@@ -141,6 +76,7 @@ Dependencies: 			Conflicts: None
 Supporting Materials: Private Health Insurer details (if relevant); GP Details (if relevant)
 History: Created M C Scott 20/02/20 @ 05:30 PM GMT
 
+
 REQ-ID: mcs482-2	Type: Functional 
 Description: Interface between Appointment Booking System and Account System
 Rationale: Automatic generation of Private Health Insurer treatment invoices
@@ -156,13 +92,6 @@ Supporting Materials: Private Health Insurer details
 History: Created M C Scott 20/02/20 @ 05:30 PM GMT
 
 
-REQ-ID: deb-eds01
-Description: The product shall locate a patient’s record within the treatments system
-Type: functional, technological
-Rationale: to be able to update that record with information on the patient’s recent treatment
-Originator: Carol, office manager
-Comments:
-
 REQ-ID: deb-eds02
 Description: The product shall determine the validity of the patient supplied private healthcare insurer details
 Type: functional, business
@@ -171,17 +100,17 @@ Originator: Carol, office manager
 Comments:
 
 
-
-REQ-ID:HM-1
-Description:  the product shall accept the patient identifier and bring up the patient’s profile
-Type:Funcational
-Rationale: the form should be recorded against the patient’s profile 
-Originator: Carol
-Comments: [HM: Hashem Mirzadeh]
-
-REQ-ID: HM-2
-Description: the product shall check any registered insurance and generate an invoice if there is an insurance
+REQ-ID: DC3
+Description: The product shall submit debit/credit card details to the payment gateway.
 Type: Functional
-Rationale:patients who don’t have insurance should pay the cost using other methods and the insurance company should receive an invoice for the ones who have insurance
-Originator:Carol and Neil 
-Comments: [HM: Hashem Mirzadeh]
+Rationale: Patients without insurance may choose to pay for treatment by debit/credit card.
+Originator: Carol – Office manager.
+Comments: [DC-DanielColman]
+
+
+REQ-ID: DC4
+Description: The product shall record when payment has been taken from patients.
+Type: Functional
+Rationale: Regardless of the payment method used, any money received from self-paying patients should be tracked.
+Originator: Carol – Office manager.
+Comments: [DC-DanielColman]
