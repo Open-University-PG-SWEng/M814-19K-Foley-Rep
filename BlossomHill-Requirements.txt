@@ -185,3 +185,17 @@ Type: Functional
 Rationale:patients who don’t have insurance should pay the cost using other methods and the insurance company should receive an invoice for the ones who have insurance
 Originator:Carol and Neil 
 Comments: [HM: Hashem Mirzadeh]
+
+REQ-ID: DR1
+Description: Treatment record form must be complete and correct.
+Type: Functional
+Rationale: Since this form gives information to the receptionist about payments and follow-up appointments to the receptionist, it must properly identify the patient and have correct information.
+Originator: Carol.
+Comments:
+
+REQ-ID: DR2
+Description: Payments using cards must be verified.
+Type: Functional
+Rationale: If the patient is self-paying and pays by card, the card must go through security checks for it to be accepted as a payment method.
+Originator: Carol.
+Comments:
