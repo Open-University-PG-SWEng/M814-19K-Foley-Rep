@@ -1,0 +1,7 @@
+REQ-ID: NFR-11-PHF
+Description:The product should gracefully handle concurrent booking record update attempts.
+Type: Non Functional,Performance Requirement (Type 12)
+Rationale:The product needs to handle the scenario where a concurrent attempt to book the same slot for a therapist is attempted. Although both clinics are not open at the same time at the moment, it is possible even at one location, for an attempt to double book a popular slot with a specific therapist if two receptionists are working in a busy period.
+Fit Criterion:The product should immediately (within 1 second) inform the user that the free appointment slot has been taken, and not proceed with any part of the booking record update.
+Originator:Business Analyst.
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
