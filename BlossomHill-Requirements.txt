@@ -6,14 +6,6 @@ Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
 
-REQ-ID:  HMcN1
-Description: System allows calendar to be sorted by therapist
-Type: Functional
-Rationale: When signing up for a new appointment, only available appointments for the practicing therapist are important.  So the system should show available slots for each therapist separately.  
-Originator: Carol
-Comments: [Huge11- Hugh McNamara]
-
-
 REQ-ID:  HMcN2
 Description: The System should record new appointemnts into the system
 Type: Functional
@@ -27,20 +19,6 @@ Type: Functional
 Rationale: to show what payment is due and how long it should be before the next appointment.
 Originator: Carol and Neil
 [GA- Gabriel Albino]
-
-REQ-ID:GA2
-Description: The product shall collect the payment information
-Type: Functional
-Rationale: To be generated for the patient’s health insurer. 
-Originator: Carol and Neil
-[GA- Gabriel Albino]
-
-REQ-ID: MI1
-Description: The product shall invoice the health insurer for the amount specified for the treatment, when triggered to do so.
-Type: Functional
-Rationale: The completed treatment form specifies if the treatment is covered by health insurance and ideally the invoicing process can be automated. 
-Originator: Clinic owner (Neil) and Office Manager (Carol)  
-Comments: [MI- Michael Irven] The actual trigger might be manual, or by interface depending on the "to be" scenario, which is yet to be well defined. 
 
 REQ-ID: MI2
 Description: The product shall allow the user to search for available appointments within a chosen timeframe, for a chosen therapist, therapy type and/or location.
