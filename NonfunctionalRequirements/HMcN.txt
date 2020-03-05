@@ -1,0 +1,7 @@
+REQ-ID:  HMcN-1
+Description:  Payment receipt should be easily understood by the patient
+Type:  11, 10 - Non-functional (usability / look and feel)
+Rationale:  The payment receipt is for the Patient to keep a record of treatments and payments they have completed.  So the receipt should be easy to understand by any average person.  
+Fit Criterion:  After looking at an example receipt for 10 seconds, any (untrained) person should be able to remember 90% of the information included on the receipt
+Originator:  Carol (Office Manager), Neil (Owner)
+Comments: [HMcN] This requirement should capture the simplicity and usability of the receipt.  The numbers arrived at for the fit criteria are speculative and more research into effective boundaries would improve the fit criteria.
