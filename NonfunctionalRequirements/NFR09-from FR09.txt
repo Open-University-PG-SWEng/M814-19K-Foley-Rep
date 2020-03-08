@@ -1,0 +1,8 @@
+REQ-ID: NFR09
+Description: The booking system shall be user-friendly
+Type: Non-functional
+Rationale: The patients must find it easy to book their appointments; otherwise they will stop using it and will be going to the clinic in person.  
+Fit Criterion: When using the system for the first time, nine out of ten patients shall be able to select their appointment slot availability for the 
+given therapist for a given date range without resorting to the instructional guide
+Originator:Carol (Office Manager)
+Comments: [GA] File devised from the FR09.
