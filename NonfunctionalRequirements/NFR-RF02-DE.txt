@@ -1,0 +1,7 @@
+REQ-ID: NFR02
+Description: The product shall locate patient records fast enough to avoid disrupting the user’s flow of activity
+Type: Performance (Type 12)
+Rationale: To enable quick and efficient activities by the end-users. And to allow time savings compared to the manual process
+Fit Criterion: The product shall locate 90% of patient records within 1 second of the user’s request. No record retrieval shall take more than 2.5 seconds
+Originator: Carol (Office Manager)
+Comments:
