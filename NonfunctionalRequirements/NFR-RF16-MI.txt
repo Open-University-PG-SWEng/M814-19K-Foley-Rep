@@ -1,0 +1,8 @@
+REQ-ID: NFR-RF16-MI
+Description: Invoices should be produced in a timely manner.
+Type: Non-functional (performance)
+Rationale: Invoicing is crucial part of business operations and it's important that invoices are raised and sent as soon as practicable. 
+Fit Criterion: The accounts system must be able to create the invoice within 1 hour of treatment completion.
+Originator: Business Analyst
+Comments: 
+[MI] Initial comment: the original functional requirement crosses the product boundary as it concerns the interface of our/"the product" and the existing accounts system which actually raises the invoice. We cannot readily specify a performance requirement for the existing accounts system as that isn't in scope, but we can for an interface.
