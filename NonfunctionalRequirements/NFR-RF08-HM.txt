@@ -1,0 +1,7 @@
+REQ-ID:NFR08
+Description: The product shall be easy to use
+Type:No-Functional	
+Rationale:so that entry of date and time range by user would be easy and fast
+Fit Criterion:70% of the users should be able to select a date range in 15 seconds on their first use of the product, with maximum of 5 clicks
+Originator: Carol, Office manager
+Comments: [H.M.] teh quantification of the fit criterion is according to personal experience of selecting dates
