@@ -6,3 +6,4 @@ Fit Criterion: When using the system for the first time, nine out of ten patient
 given therapist for a given date range without resorting to the instructional guide
 Originator:Carol (Office Manager)
 Comments: [GA] File devised from the FR09.
+[CG] I know that the rationale of the associated FR09 may be misleading, but the appointment system will not be for patients'use yet (it will be in the future, but for now, as Carol states, it will only be used by receptionists, she explicitly says " we don't want patients to make appointment by themselves"). So I think that the appointments will still be taken through the receptionists, either by phone or in person at the clinic (written in the interview). 
