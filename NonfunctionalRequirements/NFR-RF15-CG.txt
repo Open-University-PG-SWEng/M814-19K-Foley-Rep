@@ -13,3 +13,6 @@ Which fit criterion you like best? I am accepting suggestions.
 
 [HMcN]: 
  The FC is a bit ambiuous in terms of the quality gateway criteria.  The alternative fit criteria you provide seems like it would be a better measurement of whether or not the product is sufficiently "secure".  As the intention of a fit criteria is to set a quantitative measure for the product to be measured against - it seems that offering a standard to measure against would be much better than trusting in the rigor and integrity of potentially unknown parties further down the line; As MRP says "Security is too important to be left to the whims or goodwill of the developers". 
+
+[DE] The FC does pass the quality gateway in terms of specification of a quantitative measure, that can feed into acceptance test design and that does contribute to the product purpose. However, I would suggest some generalization and replace reference to “Carol” with “office manager”. If taken literally, If Carol stops working for the clinics, her replacement would not get access to this part of the appointment product.
+I don’t think that your alternative FC works with this description. It’s more related to a legal requirement that is broader in scope than access to personal data.
