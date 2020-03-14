@@ -10,3 +10,6 @@ Comments:
 [CG]:
  Alternative fit criterion: The product shall comply with GDPR/Data Protection regulations. 
 Which fit criterion you like best? I am accepting suggestions. 
+
+[HMcN]: 
+ The FC is a bit ambiuous in terms of the quality gateway criteria.  The alternative fit criteria you provide seems like it would be a better measurement of whether or not the product is sufficiently "secure".  As the intention of a fit criteria is to set a quantitative measure for the product to be measured against - it seems that offering a standard to measure against would be much better than trusting in the rigor and integrity of potentially unknown parties further down the line; As MRP says "Security is too important to be left to the whims or goodwill of the developers". 
