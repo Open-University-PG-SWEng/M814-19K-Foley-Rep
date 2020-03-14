@@ -1,9 +1,9 @@
 REQ-ID: NFR-RF03-MW
 Description: The product shall display the patient record/information for a given patient faster.
-Type: Non-Functional (usability)
+Type: Non-Functional (performance)
 Rationale: This will enable the user/receptionist to confirm that the patient is the subject of the completed treatment/new appointment booking in a much shorter time, enabling the receptionists to attend to more patients.
 Originator: Carol (Office Manager)
-Fit Criterion: The user/receptionist should be able to access the patient’s record/information within 3 seconds from opening the window in the appointments/treatment system. The product continues to do the same work, but a lot quicker.
+Fit Criterion: The user/receptionist should be able to access the patient’s record/information within 3 seconds from clicking on the record in the appointments/treatment system. The product continues to do the same work, but a lot quicker.
 
 Comments:
  [HMcN] The FC is incomplete and ambiguous in terms of the quality gateway criteria. 
