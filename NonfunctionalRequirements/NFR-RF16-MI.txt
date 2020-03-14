@@ -12,3 +12,4 @@ Comments:
 =======
 [CG] As you said, it's the account system's responsibility to issue the invoice and we have no power on that, I suggest modifying the description writing "billing information should be passed to the account system in a timely manner". 
 >>>>>>> 427e5dce4a17243bd4a4bd366a5162bd4eb9a498
+[MW] The Fit Criterion doesn't meet the quality gateway in my view, as it is referencing a different product/system. I suggest changing the product and addressing the measure to the appointments system: The appointments system must interface with the invoicing system within 1 hour of treatment completion.
