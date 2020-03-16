@@ -1,15 +1,15 @@
 REQ-ID: NFR-RF16-MI
-Description: Invoices should be produced in a timely manner.
+Description: The product shall allow invoices to be produced in a timely manner.
 Type: Non-functional (performance)
 Rationale: Invoicing is crucial part of business operations and it's important that invoices are raised and sent as soon as practicable. 
-Fit Criterion: The accounts system must be able to create the invoice within 1 hour of treatment completion.
+Fit Criterion: The product shall convey relevant invoice data to the the accounts system within 1 hour of treatment completion.
 Originator: Business Analyst
 Comments: 
 [MI] Initial comment: the original functional requirement crosses the product boundary as it concerns the interface of our/"the product" and the existing accounts system which actually raises the invoice. We cannot readily specify a performance requirement for the existing accounts system as that isn't in scope, but we can for an interface.
 [DE] Deleted my comment 14/03/2020
-
 [H.M.] : there are 2 problems with this requirement. first, the wording of the description is not consistent with other requirements (it usually should start with "The product shall"). Second, the fit criterion has been put on Accounts system, this would make the requirement out of scope as it doesn't serve the purpose of the product, hence not passing quality gateway. The criterion should be put on scope of our product, for example "the product should process its part and send these information to account system in [number #] hours". I also think 1 hour is too long for this product to process the invoice, you might be able to find benchmarks of how long similar systems take. 
 =======
 [CG] As you said, it's the account system's responsibility to issue the invoice and we have no power on that, I suggest modifying the description writing "billing information should be passed to the account system in a timely manner". 
 >>>>>>> 427e5dce4a17243bd4a4bd366a5162bd4eb9a498
 [MW] The Fit Criterion doesn't meet the quality gateway in my view, as it is referencing a different product/system. I suggest changing the product and addressing the measure to the appointments system: The appointments system must interface with the invoicing system within 1 hour of treatment completion.
+[MI Thanks for the review comments. I Updated the NFR to relate solely to the appointments system as suggested. Left 1 hour fit criterion in the absence of agreed alternative at this stage.]
