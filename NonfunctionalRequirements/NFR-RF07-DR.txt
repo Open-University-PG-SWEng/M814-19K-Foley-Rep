@@ -4,7 +4,8 @@ Type: 12 (Performance)
 Rationale: When patients are making appointments, they do not want to be waiting for long periods of time.
 By making sure that obtaining the appointment slots are retrieved quickly, the patients will not have to
 wait for long and this will aid in patient satisfaction.
-Fit Criterion: 90% of appointment slot retrievel will take less than 2 seconds.
+Fit Criterion: 90% of appointment slot retrieval will take less than 2 seconds.
 Originator: Carol (Office Manager)
-Comments: I feel that this NFR is relevant to the FR since the appointment slots have to be filtered. This
+Comments:
+[DR] I feel that this NFR is relevant to the FR since the appointment slots have to be filtered. This
 can add time.
