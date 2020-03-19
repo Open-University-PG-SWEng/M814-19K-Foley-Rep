@@ -2,7 +2,7 @@ REQ-ID: NRF-RF15-CG
 Description: The product shall ensure the patient's information about a Health Insurance Provider is accessible only by authorized people.
 Type: 15 (Security)
 Rationale: Patients' registration with a Health Insurance is sensitive personal information protected by GDPR/Data Protection regulations and cannot be intentionally or unintentionally discolsed for second-hand use. 
-Fit Criterion: The information is only accessible by Carol or the receptionists.
+Fit Criterion: The information is only accessible by authorized people.
 Originator: Carol
 
 Comments:
