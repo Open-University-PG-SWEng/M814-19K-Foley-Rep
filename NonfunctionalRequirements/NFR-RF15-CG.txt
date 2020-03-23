@@ -16,3 +16,5 @@ Which fit criterion you like best? I am accepting suggestions.
 
 [DE] The FC does pass the quality gateway in terms of specification of a quantitative measure, that can feed into acceptance test design and that does contribute to the product purpose. However, I would suggest some generalization and replace reference to “Carol” with “office manager”. If taken literally, If Carol stops working for the clinics, her replacement would not get access to this part of the appointment product.
 I don’t think that your alternative FC works with this description. It’s more related to a legal requirement that is broader in scope than access to personal data.
+
+[LG] The current FC is precise and unambiguous, developers should be able to easily interpret and using this FC.

@@ -2,7 +2,7 @@ REQ-ID:  NFR-RF13-LG
 Description: The user should be able to identify and select payment options quickly and easily
 Type: Usability (Type 11)
 Rationale: Office productivity is increased when repetitive tasks such as the selection of payment options are easy to complete. 
-Fit Criterion: Users should be able to locate and select the relevant payment option within 10 seconds of the options being displayed on the screen
+Fit Criterion: Users should be able to locate and select the relevant payment option within 10 seconds of the options being made available to users.
 Originator: Carol (Office Manager)
 
-Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+[LG] : Based on some other solution comments, my Fit Criterion is solution based, through reference to "Options being displayed on the screen". As such I have changed my Fit Criteria, to remove solution based criteria.

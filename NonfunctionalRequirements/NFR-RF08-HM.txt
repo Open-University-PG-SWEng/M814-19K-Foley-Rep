@@ -7,3 +7,4 @@ Originator: Carol, Office manager
 Comments: [H.M.] the quantification of the fit criterion is according to personal experience of selecting dates
 [CG - revised]: Although the fit criterion is quantitative and precise, it's not abstract enough because it suggests a solution to developers. 
 [MI] agree with with CG about the fit criterion suggesting an implementation which is theoretically bad practise - although very difficult to avoid in reality!  I should point out that NFR-08 and NFR-09 are very similar in intention - possibly these would be combined with a best of both approach.
+[LG] This is a well thought out FC, a small point that I would consider is that 70% of users is a fairly low number considering that this is a simple task - (selection of date and time). I would recommend increasing the percentage threshhold to 80 or 90%.
